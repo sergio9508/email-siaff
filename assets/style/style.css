@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+:root{
+  --backgroundgray: #e2e7ed;
+  --white: #fff;
+  --gray: #77818b;
+  --skyblue: #1556bb;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background: var(--backgroundgray);
+}
+
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+.container .header{
+  background: var(--white);
+  border-radius: 7px;
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.container .content{
+  background: url("/assets/images/logo_siaff_fondo.png") var(--white) no-repeat bottom right;
+  background-size: contain;
+  margin: 2em;
+  border-radius: 7px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .content img{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.container .content h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.container .content p{
+  font-weight: 600;
+  color: var(--gray);
+  text-transform: uppercase;
+  text-align: justify;
+  margin: 1.5em 0;
+}
+.container .content p br{
+  margin: 0 1.5em;
+}
+.container .content span{
+  border: 1px solid black;
+  background: var(--backgroundgray);
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.container .content span a{
+  text-transform: none;
+}
+.container .content button{
+  background: var(--skyblue);
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 1.5em;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.container .footer{
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gray)
+}
+.container .footer .social .icons{
+  display: flex;
+  flex-direction: row-reverse;
+  color: var(--gray)
+}
+.container .footer .social i {
+  font-size: 32px;
+  margin-left: .5em;
+  color: var(--gray);
+}
