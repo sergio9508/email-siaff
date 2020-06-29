@@ -25,7 +25,7 @@ body{
   padding: 1em;
 }
 .container .content{
-  background: url("/assets/images/logo_siaff_fondo.png") var(--white) no-repeat bottom right;
+  background: url("./assets/images/logo_siaff_fondo.png") var(--white) no-repeat bottom right;
   background-size: contain;
   margin: 2em;
   border-radius: 7px;
